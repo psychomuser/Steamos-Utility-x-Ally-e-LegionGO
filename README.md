@@ -26,7 +26,8 @@ Adesso andate in desktop mode e aprire il menu "start", cliccate sull'icona acca
 
 ### Installazione Decky Loader e Plugin NECESSARI
 
-- Scaricare Decky loader da [questo link](https://decky.xyz/) 
+- Scaricare Decky loader da [questo link](https://decky.xyz/) e cliccate la voce download in alto a destra. A questo punto andate in gaming mode e poi riavviate per completare l'installazione correttamente.
+- 
 
 ### 📚 Programmazione
 - [Guida Python](https://esempio.com/python) - Introduzione a Python per principianti

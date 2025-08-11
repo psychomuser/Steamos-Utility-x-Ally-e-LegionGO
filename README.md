@@ -13,12 +13,14 @@ Specifiche per installazione STEAMOS ufficiale, con immagine scaricata da sito V
 ## Download e Installazione
 
 - Scaricare il file immagine da sito Valve a [questo link](https://store.steampowered.com/steamos/download/?ver=steamdeck&snr=100601___)
-- Creare USB avviabile, preferibilmente su un supporto USB veloce (Valve consiglia di usare Rufus su windows, Balena Etcher su MacOS/Linux)
+- Creare un supporto USB avviabile, preferibilmente su un supporto USB veloce (Valve consiglia di usare Rufus su windows, Balena Etcher su MacOS/Linux)
 - Inserire la USB nella handheld e premere vol+ durante l'avvio per richiamare il boot menu e avviare il supporto esterno USB (Valido sia su ally che legion)
 - Dopo un po' si avvia il sistema Steamos da USB, aprire la voce sul desktop "WIPE DATA AND INSTALL STEAMOS" per avviare l'installazione (nota: se usate un supporto USB lento potrebbe volerci molto tempo sia per l'avvio del sistema da USB che per l'installazione)
 - Dopo l'installazione la handheld si riavvierà (se sembra bloccata nel boot menu è normale, tranquilli, la prima volta perde molto tempo ad avviarsi)
 - A quel punto si avvierà la procedura guidata di configurazione di Steam e avrete completato l'installazione!
 
+NOTA IMPORTANTE: Se nell'attuale SSD che state utilizzando è presente un'altra distro di linux come Bazzite, l'installazione potrebbe non partire (cliccando su "WIPE DATA AND INSTALL STEAMOS" si apre il terminale ma crasha subito dopo), a quel punto è consigliato togliere SSD e inserirlo esternamente su windows, e usare un gestore partizioni come DiskGenius per eliminare tutte le partizioni e formattare l'SSD. 
+Se sull'SSD avete un'installazione di steamos non ci sono problemi, mentre con un'installazione bazzite non sono riuscito a eliminare le partizioni da linux in nessun modo, e sono stato costretto a usare windows e diskgenius.
 
 ## Primi Passi
 

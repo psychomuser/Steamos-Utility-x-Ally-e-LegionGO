@@ -1,5 +1,5 @@
 # STEAMOS: Raccolta di Guide e Plugin per ALLY e LEGION GO
-Specifiche per installazione STEAMOS ufficiale, con immagine scaricata da sito Valve/Steam
+Guide, consigli e strumenti utili per STEAMOS UFFICIALE
 
 ## Indice
 - [Download e installazione](#download-e-installazione)
@@ -13,23 +13,29 @@ Specifiche per installazione STEAMOS ufficiale, con immagine scaricata da sito V
 ## Download e Installazione
 
 - Scaricare il file immagine da sito Valve a [questo link](https://store.steampowered.com/steamos/download/?ver=steamdeck&snr=100601___)
-- Creare un supporto USB avviabile, preferibilmente su un supporto USB veloce (Valve consiglia di usare Rufus su windows, Balena Etcher su MacOS/Linux)
-- Inserire la USB nella handheld e premere vol+ durante l'avvio per richiamare il boot menu e avviare il supporto esterno USB (Valido sia su ally che legion)
-- Dopo un po' si avvia il sistema Steamos da USB, aprire la voce sul desktop "WIPE DATA AND INSTALL STEAMOS" per avviare l'installazione (nota: se usate un supporto USB lento potrebbe volerci molto tempo sia per l'avvio del sistema da USB che per l'installazione)
-- Dopo l'installazione la handheld si riavvierà (se sembra bloccata nel boot menu è normale, tranquilli, la prima volta perde molto tempo ad avviarsi)
-- A quel punto si avvierà la procedura guidata di configurazione di Steam e avrete completato l'installazione!
+- Creare un supporto USB avviabile, preferibilmente su un supporto USB veloce (Valve consiglia di usare Rufus su Windows, Balena Etcher su MacOS/Linux)
+- Inserire la USB nella handheld e premere vol+ durante l'avvio per richiamare il boot menu, e avviare il supporto USB (Valido sia su ally che legion)
+- Dopo un po' si avvia il sistema Steamos da USB, aprire la voce sul desktop "WIPE DATA AND INSTALL STEAMOS" per avviare l'installazione (nota: se usate un supporto USB lento potrebbe volerci molto tempo sia per l'avvio del sistema che per l'installazione)
+- Dopo l'installazione la handheld si riavvierà (NOTA: la prima volta perde molto tempo ad avviarsi, attendere con pazienza)
+- A quel punto si avvierà la configurazione guidata di Steam, e avrete completato l'installazione!
 
-NOTA IMPORTANTE: Se nell'attuale SSD che state utilizzando è presente un'altra distro di linux come Bazzite, l'installazione potrebbe non partire (cliccando su "WIPE DATA AND INSTALL STEAMOS" si apre il terminale ma crasha subito dopo), a quel punto è consigliato togliere SSD e inserirlo esternamente su windows, e usare un gestore partizioni come DiskGenius per eliminare tutte le partizioni e formattare l'SSD. 
-Se sull'SSD avete un'installazione di steamos non ci sono problemi, mentre con un'installazione bazzite non sono riuscito a eliminare le partizioni da linux in nessun modo, e sono stato costretto a usare windows e diskgenius.
+#### NOTA IMPORTANTE: 
+Se provate a installare SteamOS su un SSD in cui è già presente un'altra distro di linux (esempio: Bazzite), l'installazione potrebbe non partire (cliccando su "WIPE DATA AND INSTALL STEAMOS" si apre il terminale ma crasha subito dopo). In tal caso è consigliato togliere SSD e inserirlo esternamente su windows, e usare un gestore partizioni come DiskGenius per eliminare tutte le partizioni e formattare l'SSD. 
+Se sull'SSD è presente un'installazione di steamos o windows non ci sono problemi, mentre con un'installazione bazzite non sono riuscito a eliminare le partizioni da linux in nessun modo, e sono stato costretto a usare windows con diskgenius per farlo.
 
 ## Primi Passi
 
-Adesso andate in desktop mode e aprire il menu "start", cliccate sull'icona accanto al nome utente si aprirà un menu: a qual punto cliccate su "cambia password" e inserite 2 volte la password scelta per eseguire comandi di amministratore o da terminale.
+### 1. Impostare una password di root per linux
 
-### Installazione Decky Loader e Plugin NECESSARI
+Una volta avviato steam, andare in desktop mode e aprire il menu "start", cliccare sull'icona accanto al nome utente e si aprirà un menu: a quel punto cliccare su "cambia password" e impostare la password. 
+Questa password verrà richiesta durante l'esecuzione di programmi che modificano il sistema, installazione di plugin, o l'uso di comandi da terminale.
 
-- Scaricare Decky loader da [questo link](https://decky.xyz/) e cliccate la voce download in alto a destra. A questo punto andate in gaming mode e poi riavviate per completare l'installazione correttamente.
-- 
+### 2. Installazione Decky Loader e Plugin NECESSARI
+
+- **Decky loader:** Tool che permette di installare numerosi plugin utilissimi, di cui alcuni NECESSARI. <br>&emsp; Aprire [questo link](https://decky.xyz/) e cliccare la voce download in alto a destra. Aprire il file scaricato, inserire la password precedentemente impostata e attendere l'installazione. A quel punto andare in gaming mode e poi riavviare per completare l'installazione correttamente
+  
+- **SimpleDeckyTDP:** Plug-in per Decky loader necessario per impostare il TDP e altre funzioni utili su Ally e Legion GO. <br>&emsp; Per installarlo basta inserire questo comando da terminale
+  <pre> ```curl -L https://github.com/aarron-lee/SimpleDeckyTDP/raw/main/install.sh | sh ```</pre>
 
 ### 📚 Programmazione
 - [Guida Python](https://esempio.com/python) - Introduzione a Python per principianti

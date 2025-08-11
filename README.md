@@ -35,7 +35,7 @@ Questa password verrà richiesta durante l'esecuzione di programmi che modifican
 - **Decky loader:** Tool che permette di installare numerosi plugin utilissimi, di cui alcuni NECESSARI. <br>&emsp; Aprire [questo link](https://decky.xyz/) e cliccare la voce download in alto a destra. Aprire il file scaricato, inserire la password precedentemente impostata e attendere l'installazione. A quel punto andare in gaming mode e poi riavviare per completare l'installazione correttamente
   
 - **SimpleDeckyTDP:** Plug-in per Decky loader necessario per impostare il TDP e altre funzioni utili su Ally e Legion GO. <br>&emsp; Per installarlo basta inserire questo comando da terminale
-  <pre> ```curl -L https://github.com/aarron-lee/SimpleDeckyTDP/raw/main/install.sh | sh ```</pre>
+  <pre> curl -L https://github.com/aarron-lee/SimpleDeckyTDP/raw/main/install.sh | sh </pre>
 
 ### 📚 Programmazione
 - [Guida Python](https://esempio.com/python) - Introduzione a Python per principianti

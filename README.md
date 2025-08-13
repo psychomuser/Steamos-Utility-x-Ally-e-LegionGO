@@ -4,7 +4,8 @@ Guide, consigli e strumenti utili per STEAMOS UFFICIALE
 ## Indice
 - [1. Download e installazione](#download-e-installazione)
 - [2. Primi Passi dopo l'installazione](#primi-passi)
-- [3. Plugin e Tool Consigliati](#plugin-e-tool-consigliati)
+- [3. Plugin e Tool Consigliati](#plugin-consigliati)
+- [4. Tool e Utility](#tool-e-utility)
 
 ---
 
@@ -55,7 +56,7 @@ Permette il corretto funzionamento del controller Legion, e l'utilizzo contempor
   sudo systemctl start inputplumber
   ```
 
-## Plugin e Tool Consigliati
+## Plugin Consigliati
 
 ### 1. Plugin non presenti nello store di Decky
 **PREMESSA:** Se non specificato diversamente, i file zip dei plugin vanno installati manualmente dalle opzioni(⚙️) di Decky Loader(🔌). È necessario attivare la modalità sviluppatore di Decky per far apparire l'opzione.
@@ -91,7 +92,7 @@ Plugin che permette di utilizzare Lossless Scaling su linux in pochi click, per 
 
 - **FreeLoader:** Notifica la presenza di giochi in regalo nelle varie piattaforme.
 
-### 3. Tool e utility
+## Tool e utility
 
 - **Driver per Dongle USB XBOX::** [Link Repositoty](https://github.com/SavageCore/xone-steam-deck-installer) <br>
 **💿 Installazione:** Da terminale eseguire questo comando:

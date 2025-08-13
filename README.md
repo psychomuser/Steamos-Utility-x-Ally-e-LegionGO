@@ -112,7 +112,7 @@ Plugin che permette di utilizzare Lossless Scaling su linux in pochi click, per 
 
 - **ProtonTricks:** Permette di eseguire script, aprire exe, o installare dependencies all'interno di uno specifico prefisso Wine.
 
-- **ProtonPlus:** Manager per installare nuove versioni di proton (più completo di winecellar)
+- **ProtonPlus:** Manager per installare nuove versioni di proton (più completo del plugin winecellar)
 
 - **Lutris:** Permette di installare giochi o programmi tramite file exe o cartelle. Permette anche l'installazione semplice di launcher di store alternativi. Dal sito Lutris esistono degli script per installare direttamente retrogame per windows.
 

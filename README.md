@@ -81,11 +81,15 @@ Plugin che permette di utilizzare Lossless Scaling su linux in pochi click, per 
     
 - **HLTB:**: Nella schermata di ogni gioco ne indica la durata effettiva, secondo le stime di HowLongToBeat.
 
+- **Wine Cellar:** Permette di installare diverse versioni di proton.
+
+- **MangoPeel:** Permette di personalizzare l'overlay delle prestazioni di steam.
+
+- **DeckSP:** Equalizzatore e volume booster con varie opzioni utili.
+
 - **AutoFlatpaks:** Permette di aggiornare i flatpak installati su linux direttamente dalla gaming mode.
 
 - **Quick Resume:** Permette di freezare in memoria i giochi per aprirne più in contemporanea.
-
--
   
   
 

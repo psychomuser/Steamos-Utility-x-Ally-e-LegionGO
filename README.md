@@ -106,7 +106,7 @@ Plugin che permette di utilizzare Lossless Scaling su linux in pochi click, per 
   ```
   sudo pacman -S linux-neptune-611
   ```
-  In seguito riavviate il sistema, e poi aprite sul desktop l'icona con la dicitura "DEBUG" tra le 4 icone precedentemente apparse. A quel punto apparirà finalmente il popup di conferma. Riavviate per testare il funzionamento del dongle.
+  In seguito riavviare il sistema, e poi aprire sul desktop l'icona con la dicitura "DEBUG" tra le 4 icone precedentemente apparse. A quel punto apparirà finalmente il popup di conferma. Riavviare per poi testare il funzionamento del dongle.
 
 ### 2. Tool presenti in Discover
 

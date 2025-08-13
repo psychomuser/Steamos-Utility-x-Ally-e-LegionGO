@@ -35,7 +35,7 @@ Questa password verrà richiesta durante l'esecuzione di programmi che modifican
 - **Decky loader:** [Link Download](https://decky.xyz/) <br>
 Tool che permette di installare vari plugin utilissimi, di cui alcuni necessari. Presenta uno store interno, ma alcuni vanno comunque scaricati esternamente. <br> 
 **💿 Installazione:** <br>
-  Aprire il link e scaricare dal pulsante in altro a destra. Aprire il file da gestore file, inserire la password root impostata prima e attendere l'installazione. A quel punto andare in gaming mode e riavviare il sistema per una corretta installazione.
+  Aprire il link e scaricare dal pulsante in altro a destra. Aprire il file da gestore file, inserire la password root impostata prima e attendere l'installazione. A quel punto andare in gaming mode e riavviare il sistema per una corretta installazione. Il plugin si troverà nel menù laterale destro di steam, con l'icona di una 🔌. Andare nelle opzioni per attivare la modalità sviluppatore, in modo da poter installare plugin manualmente tramite file zip. 
   
 - **SimpleDeckyTDP:** [Link Repository](https://github.com/aarron-lee/SimpleDeckyTDP) <br>
 Plug-in per Decky loader necessario per impostare il TDP e altre funzioni utili su Ally e Legion GO. <br>
@@ -59,9 +59,21 @@ Permette il corretto funzionamento del controller Legion, e l'utilizzo contempor
 
 ## Plugin e Tool Consigliati
 
-- **Decky Framegen:** [Link Download](https://github.com/xXJSONDeruloXx/Decky-Framegen/releases) <br>
+### 1. Plugin non presenti nello store di Decky
+**PREMESSA:** Se non specificato diversamente, i file zip dei plugin vanno installati manualmente dalle opzioni(⚙️) di Decky Loader(🔌). È necessario attivare la modalità sviluppatore di Decky per far apparire l'opzione.
 
+- **Decky Framegen:** [Link Download ZIP](https://github.com/xXJSONDeruloXx/Decky-Framegen/releases) <br>
+Plugin che tramite optiscaler permette di convertire gli input dlss in XESS 2.1, inclusa frame generation se disponibile. <br>
 
+- **Decky Lossless Scaling:** [Link Download Zip](https://github.com/xXJSONDeruloXx/decky-lossless-scaling-vk/releases) <br>
+Plugin che permette di utilizzare Lossless Scaling su linux in pochi click, per avere la frame generation in tutti i giochi. È necessario acquistare Lossless Scaling su steam per il funzionamento.
+
+- **NonSteamLauncher:** [Link Installer](https://github.com/moraroy/NonSteamLaunchers-On-Steam-Deck/releases) <br>
+  Plugin che permette facilmente l'installazione di altri launcher (es.Epic, Gog, Ubisoft, EA). Inoltre permette l'installazione di servizi streaming come webapp chrome utilizzabile con controller (es. Gamepass, Geforce, Luna, Youtube). <br>
+  **💿Installazione:** <br>
+  Scaricare NSLPLUGIN.desktop e avviarlo dal gestore file per avviare l'installazione o l'aggiornamento del plugin.
+  
+  
 
 
 

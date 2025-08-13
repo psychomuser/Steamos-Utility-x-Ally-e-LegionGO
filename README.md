@@ -5,6 +5,7 @@ Guide, consigli e strumenti utili per STEAMOS UFFICIALE
 - [1. Download e installazione](#download-e-installazione)
 - [2. Primi Passi dopo l'installazione](#primi-passi)
 - [3. Plugin e Tool Consigliati](#plugin-e-tool-consigliati)
+- 
 
 
 ---
@@ -55,9 +56,10 @@ Permette il corretto funzionamento del controller Legion, e l'utilizzo contempor
   sudo systemctl enable inputplumber-suspend
   sudo systemctl start inputplumber
   ```
-### 3. Plugin e Tool Consigliati
 
- - **Decky Framegen: [Link download](https://github.com/xXJSONDeruloXx/Decky-Framegen/releases)** <br>
+## Plugin e Tool Consigliati
+
+- **Decky Framegen:** [Link Download](https://github.com/xXJSONDeruloXx/Decky-Framegen/releases) <br>
 
 
 

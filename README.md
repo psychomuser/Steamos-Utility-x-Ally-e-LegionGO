@@ -114,7 +114,7 @@ Plugin che permette di utilizzare Lossless Scaling su linux in pochi click, per 
 
 - **ProtonPlus:** Manager per installare nuove versioni di proton (più completo di winecellar)
 
-- **Lutris:** Tool che permette di installare giochi o programmi tramite file exe o cartelle. Permette anche l'installazione semplice di launcher di store alternativi. Dal sito Lutris esistono degli script per installare direttamente retrogame per windows.
+- **Lutris:** Permette di installare giochi o programmi tramite file exe o cartelle. Permette anche l'installazione semplice di launcher di store alternativi. Dal sito Lutris esistono degli script per installare direttamente retrogame per windows.
 
 - **PortProton:** Alternativa a Lutris con dei vantaggi/svantaggi
 

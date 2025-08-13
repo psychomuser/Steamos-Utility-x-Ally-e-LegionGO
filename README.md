@@ -73,19 +73,19 @@ Plugin che permette di utilizzare Lossless Scaling su linux in pochi click, per 
   **💿Installazione:** <br>
   Scaricare NSLPLUGIN.desktop e avviarlo dal gestore file per avviare l'installazione o l'aggiornamento del plugin.
 
-  ### 2. Plugin presenti nello store di Decky
+### 2. Plugin presenti nello store di Decky
 
-  - **SteamGriDB:** Plugin per modificare facilmente artwork e banner di ogni gioco/app steam.
+- **SteamGriDB:** Plugin per modificare facilmente artwork e banner di ogni gioco/app steam.
   
-  - **ProtonDB Badges:** Nella schermata di ogni gioco appare un badge che indica la fruibilità del gioco su linux.
+- **ProtonDB Badges:** Nella schermata di ogni gioco appare un badge che indica la fruibilità del gioco su linux.
     
-  - **HLTB:**: Nella schermata di ogni gioco ne indica la durata effettiva, secondo le stime di HowLongToBeat.
+- **HLTB:**: Nella schermata di ogni gioco ne indica la durata effettiva, secondo le stime di HowLongToBeat.
 
-  - **AutoFlatpaks:** Permette di aggiornare i flatpak installati su linux direttamente dalla gaming mode.
+- **AutoFlatpaks:** Permette di aggiornare i flatpak installati su linux direttamente dalla gaming mode.
 
-  - **Quick Resume:** Permette di freezare in memoria i giochi per aprirne più in contemporanea.
+- **Quick Resume:** Permette di freezare in memoria i giochi per aprirne più in contemporanea.
 
-  -
+-
   
   
 

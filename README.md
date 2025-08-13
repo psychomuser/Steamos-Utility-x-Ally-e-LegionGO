@@ -94,6 +94,8 @@ Plugin che permette di utilizzare Lossless Scaling su linux in pochi click, per 
 
 ## Tool e utility
 
+### 1. Tool non presenti in Discover
+
 - **Driver per Dongle USB XBOX::** [Link Repositoty](https://github.com/SavageCore/xone-steam-deck-installer) <br>
 **💿 Installazione:** Da terminale eseguire questo comando:
   ```
@@ -105,6 +107,18 @@ Plugin che permette di utilizzare Lossless Scaling su linux in pochi click, per 
   sudo pacman -S linux-neptune-611
   ```
   In seguito riavviate il sistema, e poi aprite sul desktop l'icona con la dicitura "DEBUG" tra le 4 icone precedentemente apparse. A quel punto apparirà finalmente il popup di conferma. Riavviate per testare il funzionamento del dongle.
+
+### 2. Tool presenti in Discover
+
+- **ProtonTricks:** Permette di eseguire script, aprire exe, o installare dependencies all'interno di uno specifico prefisso Wine.
+
+- **ProtonPlus:** Manager per installare nuove versioni di proton (più completo di winecellar)
+
+- **Lutris:** Tool che permette di installare giochi o programmi tramite file exe o cartelle. Permette anche l'installazione semplice di launcher di store alternativi. Dal sito Lutris esistono degli script per installare direttamente retrogame per windows.
+
+- **PortProton:** Alternativa a Lutris con dei vantaggi/svantaggi
+
+- **Heroic Launcher:** Vari store gaming in un'unica app. Alternativa al plugin NonSteamLauncher.
   
   
 

@@ -34,7 +34,7 @@ Questa password verrà richiesta durante l'esecuzione di programmi che modifican
 - **Decky loader:** [Link Download](https://decky.xyz/) <br>
 Tool che permette di installare vari plugin utilissimi, di cui alcuni necessari. Presenta uno store interno, ma alcuni vanno comunque scaricati esternamente. <br> 
 **💿 Installazione:** <br>
-  Aprire il link e scaricare dal pulsante in alto a destra. Aprire il file da gestore file, inserire la password root impostata prima e attendere l'installazione. A quel punto andare in gaming mode e riavviare il sistema per una corretta installazione. Il plugin si troverà nel menù laterale destro di steam, con l'icona di una 🔌. Andare nelle opzioni per attivare la modalità sviluppatore, in modo da poter installare plugin manualmente tramite file zip. 
+  Aprire il link e scaricare dal pulsante in alto a destra. Aprire il file da gestore file, inserire la password root impostata prima e attendere l'installazione. A quel punto andare in gaming mode e riavviare il sistema per una corretta installazione. Il plugin si troverà nel menù laterale destro di steam, con l'icona di una 🔌. Andare nelle opzioni⚙️ del plugin per attivare la modalità sviluppatore, in modo da poter installare plugin manualmente tramite file zip. 
   
 - **SimpleDeckyTDP:** [Link Repository](https://github.com/aarron-lee/SimpleDeckyTDP) <br>
 Plug-in per Decky loader necessario per impostare il TDP e altre funzioni utili su Ally e Legion GO. <br>

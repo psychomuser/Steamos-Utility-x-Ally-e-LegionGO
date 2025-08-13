@@ -2,14 +2,14 @@
 Guide, consigli e strumenti utili per STEAMOS UFFICIALE
 
 ## Indice
-- [1. Download e installazione](#download-e-installazione)
+- [1. Download e installazione SteamOS](#download-e-installazione)
 - [2. Primi Passi e Tool Necessari](#primi-passi)
 - [3. Plugin Consigliati](#plugin-consigliati)
 - [4. Tool e Utility](#tool-e-utility)
 
 ---
 
-## Download e Installazione
+## Download e Installazione SteamOS
 
 - Scaricare il file immagine da sito Valve a [questo link](https://store.steampowered.com/steamos/download/?ver=steamdeck&snr=100601___)
 - Creare un supporto USB avviabile (preferibilmente su un supporto USB veloce). Valve consiglia di usare Rufus su Windows, Balena Etcher su MacOS/Linux

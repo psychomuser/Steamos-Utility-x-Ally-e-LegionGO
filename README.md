@@ -13,30 +13,48 @@ Guide, consigli e strumenti utili per STEAMOS UFFICIALE
 ## Download e Installazione
 
 - Scaricare il file immagine da sito Valve a [questo link](https://store.steampowered.com/steamos/download/?ver=steamdeck&snr=100601___)
-- Creare un supporto USB avviabile, preferibilmente su un supporto USB veloce (Valve consiglia di usare Rufus su Windows, Balena Etcher su MacOS/Linux)
+- Creare un supporto USB avviabile (preferibilmente su un supporto USB veloce). Valve consiglia di usare Rufus su Windows, Balena Etcher su MacOS/Linux
 - Inserire la USB nella handheld e premere vol+ durante l'avvio per richiamare il boot menu, e avviare il supporto USB (Valido sia su ally che legion)
 - Dopo un po' si avvia il sistema Steamos da USB, aprire la voce sul desktop "WIPE DATA AND INSTALL STEAMOS" per avviare l'installazione (nota: se usate un supporto USB lento potrebbe volerci molto tempo sia per l'avvio del sistema che per l'installazione)
 - Dopo l'installazione la handheld si riavvierà (NOTA: la prima volta perde molto tempo ad avviarsi, attendere con pazienza)
-- A quel punto si avvierà la configurazione guidata di Steam, e avrete completato l'installazione!
+- A quel punto si avvierà la configurazione guidata di Steam, seguire i passaggi per completare l'installazione.
 
 #### NOTA IMPORTANTE: 
-Se provate a installare SteamOS su un SSD in cui è già presente un'altra distro di linux (esempio: Bazzite), l'installazione potrebbe non partire (cliccando su "WIPE DATA AND INSTALL STEAMOS" si apre il terminale ma crasha subito dopo). In tal caso è consigliato togliere SSD e inserirlo esternamente su windows, e usare un gestore partizioni come DiskGenius per eliminare tutte le partizioni e formattare l'SSD. 
+Provando a installare SteamOS su un SSD in cui è già presente un'altra distro di linux (esempio: Bazzite), l'installazione potrebbe non partire (cliccando su "WIPE DATA AND INSTALL STEAMOS" si apre il terminale ma crasha subito dopo). In tal caso è consigliato togliere SSD e inserirlo esternamente su windows, e usare un gestore partizioni come DiskGenius per eliminare tutte le partizioni e formattare l'SSD. 
 Se sull'SSD è presente un'installazione di steamos o windows non ci sono problemi, mentre con un'installazione bazzite non sono riuscito a eliminare le partizioni da linux in nessun modo, e sono stato costretto a usare windows con diskgenius per farlo.
 
 ## Primi Passi
 
 ### 1. Impostare una password di root per linux
 
-Una volta avviato steam, andare in desktop mode e aprire il menu "start", cliccare sull'icona accanto al nome utente e si aprirà un menu: a quel punto cliccare su "cambia password" e impostare la password. 
+Una volta avviato steam, andare in desktop mode e aprire il menu "start", cliccare sull'icona accanto al nome utente e si aprirà un menu: a quel punto cliccare su "cambia password" e impostare la password, ma rifiutate di impostare la password per il wallet.
 Questa password verrà richiesta durante l'esecuzione di programmi che modificano il sistema, installazione di plugin, o l'uso di comandi da terminale.
 
-### 2. Installazione Decky Loader e Plugin NECESSARI
+### 2. Installazione Decky Loader e Tool NECESSARI
 
-- **Decky loader:** Tool che permette di installare numerosi plugin utilissimi, di cui alcuni NECESSARI. <br>&emsp; Aprire [questo link](https://decky.xyz/) e cliccare la voce download in alto a destra. Aprire il file scaricato, inserire la password precedentemente impostata e attendere l'installazione. A quel punto andare in gaming mode e poi riavviare per completare l'installazione correttamente
+- **Decky loader:** [Link Download](https://decky.xyz/) <br>
+Tool che permette di installare vari plugin utilissimi, di cui alcuni necessari. Presenta uno store interno, ma alcuni vanno comunque scaricati esternamente. <br> 
+**💿 Installazione:** <br>
+  Aprire il link e scaricare dal pulsante in altro a destra. Aprire il file da gestore file, inserire la password root impostata prima e attendere l'installazione. A quel punto andare in gaming mode e riavviare il sistema per una corretta installazione.
   
-- **SimpleDeckyTDP:** Plug-in per Decky loader necessario per impostare il TDP e altre funzioni utili su Ally e Legion GO. <br>&emsp; Per installarlo basta inserire questo comando da terminale
-  <pre> curl -L https://github.com/aarron-lee/SimpleDeckyTDP/raw/main/install.sh | sh </pre>
+- **SimpleDeckyTDP:** [Link Repository](https://github.com/aarron-lee/SimpleDeckyTDP) <br>
+Plug-in per Decky loader necessario per impostare il TDP e altre funzioni utili su Ally e Legion GO. <br>
+**💿 Installazione:** <br>
+  Inserire questo comando da terminale
+  ```
+  curl -L https://github.com/aarron-lee/SimpleDeckyTDP/raw/main/install.sh | sh
+- **InputPlumber** [NECESSARIO SOLO SU LEGION GO] [Link Repository](https://github.com/ShadowBlip/InputPlumber) <br>
+Permette il corretto funzionamento del controller Legion, e l'utilizzo contemporaneo di più controller. <br>
+**💿 Installazione:** <br>
+  Inserire questo comando da terminale
+  ```
+  sudo pacman -S inputplumber 
 
+
+
+
+
+  
 ### 📚 Programmazione
 - [Guida Python](https://esempio.com/python) - Introduzione a Python per principianti
 - [Guida JavaScript](https://esempio.com/js) - Nozioni base di JavaScript
@@ -58,3 +76,5 @@ Se vuoi contribuire aggiungendo guide o correzioni, leggi il file CONTRIBUTING.m
 
 ## Licenza
 Questa raccolta è distribuita con licenza MIT. Vedi il file LICENSE per i dettagl
+
+

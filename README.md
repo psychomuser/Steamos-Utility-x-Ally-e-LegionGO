@@ -2,11 +2,10 @@
 Guide, consigli e strumenti utili per STEAMOS UFFICIALE
 
 ## Indice
-- [Download e installazione](#download-e-installazione)
-- [Primi Passi dopo l'installazione](#primi-passi)
-- [Guide principali](#guide-principali)
-- [Contribuire](#contribuire)
-- [Licenza](#licenza)
+- [1. Download e installazione](#download-e-installazione)
+- [2. Primi Passi dopo l'installazione](#primi-passi)
+- [3. Plugin e Tool Consigliati](#plugin-e-tool-consigliati)
+
 
 ---
 
@@ -43,38 +42,24 @@ Plug-in per Decky loader necessario per impostare il TDP e altre funzioni utili 
   Inserire questo comando da terminale
   ```
   curl -L https://github.com/aarron-lee/SimpleDeckyTDP/raw/main/install.sh | sh
-- **InputPlumber** [NECESSARIO SOLO SU LEGION GO] [Link Repository](https://github.com/ShadowBlip/InputPlumber) <br>
+- **InputPlumber** [NECESSARIO SOLO SU LEGION GO]: [Link Repository](https://github.com/ShadowBlip/InputPlumber) <br>
 Permette il corretto funzionamento del controller Legion, e l'utilizzo contemporaneo di più controller. <br>
 **💿 Installazione:** <br>
   Inserire questo comando da terminale
   ```
   sudo pacman -S inputplumber 
+  ```
+  In seguito inserire questo comando per avviare i servizi inerenti:
+  ```
+  sudo systemctl enable inputplumber
+  sudo systemctl enable inputplumber-suspend
+  sudo systemctl start inputplumber
+  ```
+### 3. Plugin e Tool Consigliati
+
+ - **Decky Framegen: [Link download](https://github.com/xXJSONDeruloXx/Decky-Framegen/releases)** <br>
 
 
 
-
-
-  
-### 📚 Programmazione
-- [Guida Python](https://esempio.com/python) - Introduzione a Python per principianti
-- [Guida JavaScript](https://esempio.com/js) - Nozioni base di JavaScript
-
-### 🎨 Design
-- [Guida UX](https://esempio.com/ux) - Principi di user experience design
-
----
-
-## Guide principali
-- [Come usare GitHub](https://esempio.com/github) - Guida passo-passo per principianti
-
----
-
-## Contribuire
-Se vuoi contribuire aggiungendo guide o correzioni, leggi il file CONTRIBUTING.md...
-
----
-
-## Licenza
-Questa raccolta è distribuita con licenza MIT. Vedi il file LICENSE per i dettagl
 
 

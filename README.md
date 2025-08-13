@@ -63,15 +63,29 @@ Permette il corretto funzionamento del controller Legion, e l'utilizzo contempor
 **PREMESSA:** Se non specificato diversamente, i file zip dei plugin vanno installati manualmente dalle opzioni(⚙️) di Decky Loader(🔌). È necessario attivare la modalità sviluppatore di Decky per far apparire l'opzione.
 
 - **Decky Framegen:** [Link Download ZIP](https://github.com/xXJSONDeruloXx/Decky-Framegen/releases) <br>
-Plugin che tramite optiscaler permette di convertire gli input dlss in XESS 2.1, inclusa frame generation se disponibile. <br>
+Plugin che tramite optiscaler permette di convertire gli input DLSS in XESS 2.1, inclusa frame generation se disponibile. <br>
 
 - **Decky Lossless Scaling:** [Link Download Zip](https://github.com/xXJSONDeruloXx/decky-lossless-scaling-vk/releases) <br>
 Plugin che permette di utilizzare Lossless Scaling su linux in pochi click, per avere la frame generation in tutti i giochi. È necessario acquistare Lossless Scaling su steam per il funzionamento.
 
 - **NonSteamLauncher:** [Link Installer](https://github.com/moraroy/NonSteamLaunchers-On-Steam-Deck/releases) <br>
-  Plugin che permette facilmente l'installazione di altri launcher (es.Epic, Gog, Ubisoft, EA). Inoltre permette l'installazione di servizi streaming come webapp chrome utilizzabile con controller (es. Gamepass, Geforce, Luna, Youtube). <br>
+  Plugin che permette facilmente l'installazione di altri launcher (es. Epic, Gog, Ubisoft, EA). Inoltre permette l'installazione di servizi streaming come webapp chrome utilizzabile con controller (es. Gamepass, Geforce, Luna, Youtube). <br>
   **💿Installazione:** <br>
   Scaricare NSLPLUGIN.desktop e avviarlo dal gestore file per avviare l'installazione o l'aggiornamento del plugin.
+
+  ### 2. Plugin presenti nello store di Decky
+
+  - **SteamGriDB:** Plugin per modificare facilmente artwork e banner di ogni gioco/app steam.
+  
+  - **ProtonDB Badges:** Nella schermata di ogni gioco appare un badge che indica la fruibilità del gioco su linux.
+    
+  - **HLTB:**: Nella schermata di ogni gioco ne indica la durata effettiva, secondo le stime di HowLongToBeat.
+
+  - **AutoFlatpaks:** Permette di aggiornare i flatpak installati su linux direttamente dalla gaming mode.
+
+  - **Quick Resume:** Permette di freezare in memoria i giochi per aprirne più in contemporanea.
+
+  -
   
   
 

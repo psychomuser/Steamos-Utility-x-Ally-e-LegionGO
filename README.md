@@ -93,7 +93,7 @@ Plugin che permette di utilizzare Lossless Scaling su linux in pochi click, per 
 
 ### 3. Tool e utility
 
-- **Driver per dongle USB XBOX::** [Link Repositoty](https://github.com/SavageCore/xone-steam-deck-installer) <br>
+- **Driver per Dongle USB XBOX::** [Link Repositoty](https://github.com/SavageCore/xone-steam-deck-installer) <br>
 **💿 Installazione:** Da terminale eseguire questo comando:
   ```
   wget -O /tmp/bootstrap.sh https://github.com/SavageCore/xone-steam-deck-installer/releases/latest/download/bootstrap.sh && sh /tmp/bootstrap.sh

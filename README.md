@@ -5,8 +5,6 @@ Guide, consigli e strumenti utili per STEAMOS UFFICIALE
 - [1. Download e installazione](#download-e-installazione)
 - [2. Primi Passi dopo l'installazione](#primi-passi)
 - [3. Plugin e Tool Consigliati](#plugin-e-tool-consigliati)
-- 
-
 
 ---
 
@@ -75,7 +73,7 @@ Plugin che permette di utilizzare Lossless Scaling su linux in pochi click, per 
 
 ### 2. Plugin presenti nello store di Decky
 
-- **SteamGriDB:** Plugin per modificare facilmente artwork e banner di ogni gioco/app steam.
+- **SteamGriDB:** Permette di modificare facilmente artwork e banner di ogni gioco/app steam.
   
 - **ProtonDB Badges:** Nella schermata di ogni gioco appare un badge che indica la fruibilità del gioco su linux.
     
@@ -89,7 +87,23 @@ Plugin che permette di utilizzare Lossless Scaling su linux in pochi click, per 
 
 - **AutoFlatpaks:** Permette di aggiornare i flatpak installati su linux direttamente dalla gaming mode.
 
-- **Quick Resume:** Permette di freezare in memoria i giochi per aprirne più in contemporanea.
+- **Quick Resume:** Permette di freezare in memoria i giochi, per aprirne più in contemporanea.
+
+- **FreeLoader:** Notifica la presenza di giochi in regalo nelle varie piattaforme.
+
+### 3. Tool e utility
+
+- **Driver per dongle USB XBOX::** [Link Repositoty](https://github.com/SavageCore/xone-steam-deck-installer) <br>
+**💿 Installazione:** Da terminale eseguire questo comando:
+  ```
+  wget -O /tmp/bootstrap.sh https://github.com/SavageCore/xone-steam-deck-installer/releases/latest/download/bootstrap.sh && sh /tmp/bootstrap.sh
+  ```
+  Al termine verranno aggiunte 4 icone sul desktop; se va tutto a buon fine apparirà un popup che conferma l'installazione invita a inserire il dongle XBOX. Secondo i miei test, invece, ci sarà un errore e l'installazione non andrà a buon fine. <br>
+  In questo caso, basta inserire questo comando:
+  ```
+  sudo pacman -S linux-neptune-611
+  ```
+  In seguito riavviate il sistema, e poi aprite sul desktop l'icona con la dicitura "DEBUG" tra le 4 icone precedentemente apparse col primo comando. A quel punto apparirà finalmente il popup di conferma e riavviate per testare il funzionamento del dongle.
   
   
 

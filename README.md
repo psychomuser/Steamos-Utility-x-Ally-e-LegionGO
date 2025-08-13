@@ -3,7 +3,7 @@ Guide, consigli e strumenti utili per STEAMOS UFFICIALE
 
 ## Indice
 - [1. Download e installazione](#download-e-installazione)
-- [2. Primi Passi dopo l'installazione](#primi-passi)
+- [2. Primi Passi e Plugin Necessari](#primi-passi)
 - [3. Plugin e Tool Consigliati](#plugin-consigliati)
 - [4. Tool e Utility](#tool-e-utility)
 

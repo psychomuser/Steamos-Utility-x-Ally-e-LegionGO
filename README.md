@@ -88,7 +88,7 @@ Plugin che permette di utilizzare Lossless Scaling su linux in pochi click, per 
 
 - **AutoFlatpaks:** Permette di aggiornare i flatpak installati su linux direttamente dalla gaming mode.
 
-- **Quick Resume:** Permette di freezare in memoria i giochi, per aprirne più in contemporanea.
+- **Pause Games:** Permette di freezare in memoria i giochi, per aprirne più in contemporanea.
 
 - **FreeLoader:** Notifica la presenza di giochi in regalo nelle varie piattaforme.
 

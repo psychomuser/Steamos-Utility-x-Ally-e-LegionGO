@@ -7,11 +7,11 @@ Guide, consigli e strumenti utili per STEAMOS UFFICIALE
   - [1. Password di root](#1-impostare-una-password-di-root-per-linux)
   - [2. Decky Loader e Tool Necessari](#2-installazione-decky-loader-e-tool-necessari)
 - [Plugin Consigliati](#plugin-consigliati)
-  - [1. Plugin non presenti nello Store](1-plugin-non-presenti-nello-store-decky)
-  - [2. Plugin presenti nello Store](1-plugin-presenti-nello-store-decky)
+  - [1. Plugin non presenti nello Store](#1-plugin-non-presenti-nello-store-di-decky)
+  - [2. Plugin presenti nello Store](#2-plugin-presenti-nello-store-di-decky)
 - [Tool e Utility](#tool-e-utility)
-  - [1. Tool non presenti in Discover](1-tool-non-presenti-in-discover)
-  - [1. Tool presenti in Discover](1-tool-presenti-in-discover) 
+  - [1. Tool non presenti in Discover](#1-tool-non-presenti-in-discover)
+  - [1. Tool presenti in Discover](#2-tool-presenti-in-discover) 
 
 ---
 

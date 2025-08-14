@@ -4,6 +4,7 @@ Guide, consigli e strumenti utili per STEAMOS UFFICIALE
 ## Indice
 - [1. Download e installazione SteamOS](#download-e-installazione-steamos)
 - [2. Primi Passi e Tool Necessari](#primi-passi)
+  - [1. Password di root](impostare-una-password-di-root-per-linux) 
 - [3. Plugin Consigliati](#plugin-consigliati)
 - [4. Tool e Utility](#tool-e-utility)
 

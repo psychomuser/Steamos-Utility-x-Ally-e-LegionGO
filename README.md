@@ -2,11 +2,16 @@
 Guide, consigli e strumenti utili per STEAMOS UFFICIALE
 
 ## Indice
-1. [Download e installazione SteamOS](#download-e-installazione-steamos)
-2. [Primi Passi e Tool Necessari](#primi-passi)
-   1. [Password di root](#1-impostare-una-password-di-root-per-linux) 
-3. [Plugin Consigliati](#plugin-consigliati)
-4. [Tool e Utility](#tool-e-utility)
+- [Download e installazione SteamOS](#download-e-installazione-steamos)
+- [Primi Passi e Tool Necessari](#primi-passi)
+  - [1. Password di root](#1-impostare-una-password-di-root-per-linux)
+  - [2. Decky Loader e Tool Necessari](#2-installazione-decky-loader-e-tool-necessari)
+- [Plugin Consigliati](#plugin-consigliati)
+  - [1. Plugin non presenti nello Store](1-plugin-non-presenti-nello-store-decky)
+  - [2. Plugin presenti nello Store](1-plugin-presenti-nello-store-decky)
+- [Tool e Utility](#tool-e-utility)
+  - [1. Tool non presenti in Discover](1-tool-non-presenti-in-discover)
+  - [1. Tool presenti in Discover](1-tool-presenti-in-discover) 
 
 ---
 

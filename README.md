@@ -11,7 +11,7 @@ Guide, consigli e strumenti utili per STEAMOS UFFICIALE
   - [2. Plugin presenti nello Store](#2-plugin-presenti-nello-store-di-decky)
 - [Tool e Utility](#tool-e-utility)
   - [1. Tool non presenti in Discover](#1-tool-non-presenti-in-discover)
-  - [1. Tool presenti in Discover](#2-tool-presenti-in-discover) 
+  - [2. Tool presenti in Discover](#2-tool-presenti-in-discover) 
 
 ---
 

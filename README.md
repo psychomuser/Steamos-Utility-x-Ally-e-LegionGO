@@ -25,8 +25,8 @@ Guide, consigli e strumenti utili per STEAMOS UFFICIALE
 - A quel punto si avvierà la configurazione guidata di Steam, seguire i passaggi per completare l'installazione.
 
 #### NOTA IMPORTANTE: 
-Provando a installare SteamOS su un SSD in cui è già presente un'altra distro di linux (esempio: Bazzite), l'installazione potrebbe non partire (cliccando su "WIPE DATA AND INSTALL STEAMOS" si apre il terminale ma crasha subito dopo). In tal caso è consigliato togliere SSD e inserirlo esternamente su windows, e usare un gestore partizioni come DiskGenius per eliminare tutte le partizioni e formattare l'SSD. 
-Se sull'SSD è presente un'installazione di steamos o windows non ci sono problemi, mentre con un'installazione bazzite non sono riuscito a eliminare le partizioni da linux in nessun modo, e sono stato costretto a usare windows con diskgenius per farlo.
+Provando a installare SteamOS su un SSD in cui è già presente un'altra distro di linux (esempio: Bazzite), l'installazione potrebbe non partire (cliccando su "WIPE DATA AND INSTALL STEAMOS" si apre il terminale ma crasha subito dopo). In tal caso è consigliato formattare usando ad esempio una pendrive bootabile con diskgenius.
+Se sull'SSD è presente un'installazione di steamos o windows non ci sono problemi, mentre con un'installazione bazzite non sono riuscito a eliminare le partizioni da linux in nessun modo, e sono stato costretto a creare una usb bootabile con diskgenius (non so se funziona gparted).
 
 ## Primi Passi
 

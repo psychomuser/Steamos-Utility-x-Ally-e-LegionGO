@@ -96,7 +96,13 @@ Plugin che permette di utilizzare Lossless Scaling su linux in pochi click, per 
 
 - **Pause Games:** Permette di freezare in memoria i giochi, per aprirne più in contemporanea.
 
-- **FreeLoader:** Notifica la presenza di giochi in regalo nelle varie piattaforme.
+- **FreeLoader:** Notifica la presenza di giochi in regalo nei vari store per PC.
+
+- **Animation Changer:** Permette di modificare l'animazione di accensione e sospensione.
+
+- **CSS Loader:** Permette di installare vari temi e personalizzazioni per l'interfaccia Gamescope [Io uso il tema "Art hero" + "Rounds" per smussare gli angoli, "Handheld buttons" per visualizzare i tasti di rog ally al posto di quelli xbox, "Full suspend" per visionare le animazioni moddate di sospensione in fullscreen].
+
+- **Audio Loader:** Permette di personalizzare i suoni dell'interfaccia Gamescope.
 
 ## Tool e utility
 
@@ -107,7 +113,7 @@ Plugin che permette di utilizzare Lossless Scaling su linux in pochi click, per 
   ```
   wget -O /tmp/bootstrap.sh https://github.com/SavageCore/xone-steam-deck-installer/releases/latest/download/bootstrap.sh && sh /tmp/bootstrap.sh
   ```
-  Al termine verranno aggiunte 4 icone sul desktop; se va tutto a buon fine apparirà un popup che conferma l'installazione invita a inserire il dongle XBOX. Secondo i miei test, invece, ci sarà un errore e l'installazione non andrà a buon fine. <br>
+  Al termine verranno aggiunte 4 icone sul desktop; se va tutto a buon fine apparirà un popup che conferma l'installazione invita a inserire il dongle XBOX. Secondo i miei test, invece, ci sarà un errore e l'installazione non andrà a buon fine (ho scoperto che succede perché steamos è un sistema immutabile). <br>
   In questo caso, basta inserire questo comando:
   ```
   sudo pacman -S linux-neptune-611

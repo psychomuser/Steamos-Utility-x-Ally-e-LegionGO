@@ -100,7 +100,7 @@ Plugin che permette di utilizzare Lossless Scaling su linux in pochi click, per 
 
 - **Animation Changer:** Permette di modificare l'animazione di accensione e sospensione.
 
-- **CSS Loader:** Permette di installare vari temi e personalizzazioni per l'interfaccia Gamescope [Io uso il tema "Art hero" + "Rounds" per smussare gli angoli, "Handheld buttons" per visualizzare i tasti di rog ally al posto di quelli xbox, "Full suspend" per visionare le animazioni moddate di sospensione in fullscreen].
+- **CSS Loader:** Permette di installare vari temi e personalizzazioni per l'interfaccia Gamescope [Io uso il tema "Art hero" + "Round" per smussare gli angoli, "Handheld controller glyphs" per visualizzare i tasti di rog ally al posto di quelli xbox, "Full suspend" per visionare le animazioni moddate di sospensione in fullscreen, "Mini Carousel per ridimensionare le copertine", "Centered game text"].
 
 - **Audio Loader:** Permette di personalizzare i suoni dell'interfaccia Gamescope.
 

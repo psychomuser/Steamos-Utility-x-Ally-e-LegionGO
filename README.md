@@ -104,7 +104,7 @@ Plugin che permette di utilizzare Lossless Scaling su linux in pochi click, per 
 
 - **Audio Loader:** Permette di personalizzare i suoni dell'interfaccia Gamescope.
 
-- **Vibrantdeck:** Permette di regolare i colori e la vivacità del display
+- **VibrantDeck:** Permette di regolare i colori e la vivacità del display
 
 ## Tool e utility
 

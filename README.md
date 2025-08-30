@@ -108,6 +108,10 @@ Plugin che permette di utilizzare Lossless Scaling su linux in pochi click, per 
 
 - **Steamback:** Mantiene in backup gli ultimi 10 salvataggi steam cloud dopo la chiusura di un gioco, info sul [Github](https://github.com/geeksville/steamback)
 
+- **Game Sync:** Permette di caricare automaticamente in cloud i salvataggi di un determinato gioco (fork di "decky cloud save" con più funzioni)
+
+- **Quick Launch:** Permette di creare shortcut e/o avviare facilmente app desktop in gaming mode (es. browser web)
+
 ## Tool e utility
 
 ### 1. Tool non presenti in Discover

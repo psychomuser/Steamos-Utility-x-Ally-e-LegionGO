@@ -106,6 +106,8 @@ Plugin che permette di utilizzare Lossless Scaling su linux in pochi click, per 
 
 - **VibrantDeck:** Permette di regolare i colori e la vivacità del display
 
+- **-Steamback:** Mantiene in backup gli ultimi 10 salvataggi steam cloud dopo la chiusura di un gioco, info [QUI](https://github.com/geeksville/steamback)
+
 ## Tool e utility
 
 ### 1. Tool non presenti in Discover

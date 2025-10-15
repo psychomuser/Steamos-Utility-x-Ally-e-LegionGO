@@ -67,9 +67,6 @@ Permette il corretto funzionamento del controller Legion, e l'utilizzo contempor
 ### 1. Plugin non presenti nello store di Decky
 **PREMESSA:** Se non specificato diversamente, i file zip dei plugin vanno installati manualmente dalle opzioni(⚙️) di Decky Loader(🔌). È necessario attivare la modalità sviluppatore di Decky per far apparire l'opzione.
 
-- **Decky Framegen:** [Link Download ZIP](https://github.com/xXJSONDeruloXx/Decky-Framegen/releases) <br>
-Plugin che tramite optiscaler permette di convertire gli input DLSS in XESS 2.1, inclusa frame generation se disponibile. <br>
-
 - **Decky Lossless Scaling:** [Link Download Zip](https://github.com/xXJSONDeruloXx/decky-lossless-scaling-vk/releases) <br>
 Plugin che permette di utilizzare Lossless Scaling su linux in pochi click, per avere la frame generation in tutti i giochi. È necessario acquistare Lossless Scaling su steam per il funzionamento.
 
@@ -79,6 +76,8 @@ Plugin che permette di utilizzare Lossless Scaling su linux in pochi click, per 
   Scaricare NSLPLUGIN.desktop e avviarlo dal gestore file per avviare l'installazione o l'aggiornamento del plugin.
 
 ### 2. Plugin presenti nello store di Decky
+
+- **Decky Framegen:** Plugin che tramite optiscaler permette di convertire gli input DLSS in XESS 2.1, inclusa frame generation se disponibile. <br>
 
 - **SteamGriDB:** Permette di modificare facilmente artwork e banner di ogni gioco/app steam.
   

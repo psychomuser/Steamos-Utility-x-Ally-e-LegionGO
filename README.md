@@ -5,7 +5,7 @@ Guide, consigli e strumenti utili per STEAMOS UFFICIALE
 - [Download e installazione SteamOS](#download-e-installazione-steamos)
 - [Primi Passi e Tool Necessari](#primi-passi)
   - [1. Password di root](#1-impostare-una-password-di-root-per-linux)
-  - [2. Decky Loader e Tool Necessari](#2-installazione-decky-loader-e-tool-necessari)
+  - [2. Decky Loader](#2-installazione-decky-loader)
 - [Plugin Consigliati](#plugin-consigliati)
   - [1. Plugin non presenti nello Store](#1-plugin-non-presenti-nello-store-di-decky)
   - [2. Plugin presenti nello Store](#2-plugin-presenti-nello-store-di-decky)
@@ -35,38 +35,25 @@ Se sull'SSD è presente un'installazione di steamos o windows non ci sono proble
 Una volta avviato steam, andare in desktop mode e aprire il menu "start", cliccare sull'icona accanto al nome utente e si aprirà un menu: a quel punto cliccare su "cambia password" e impostare la password, ma rifiutate di impostare la password per il wallet.
 Questa password verrà richiesta durante l'esecuzione di programmi che modificano il sistema, installazione di plugin, o l'uso di comandi da terminale.
 
-### 2. Installazione Decky Loader e Tool NECESSARI
+### 2. Installazione Decky Loader
 
 - **Decky loader:** [Link Download](https://decky.xyz/) <br>
 Tool che permette di installare vari plugin utilissimi, di cui alcuni necessari. Presenta uno store interno, ma alcuni vanno comunque scaricati esternamente. <br> 
 **💿 Installazione:** <br>
   Aprire il link e scaricare dal pulsante in alto a destra. Aprire il file da gestore file, inserire la password root impostata prima e attendere l'installazione. A quel punto andare in gaming mode e riavviare il sistema per una corretta installazione. Il plugin si troverà nel menù laterale destro di steam, con l'icona di una 🔌. Andare nelle opzioni⚙️ del plugin per attivare la modalità sviluppatore, in modo da poter installare plugin manualmente tramite file zip. 
   
+## Plugin Consigliati
+
+### 1. Plugin non presenti nello store di Decky
+**PREMESSA:** Se non specificato diversamente, i file zip dei plugin vanno installati manualmente dalle opzioni(⚙️) di Decky Loader(🔌). È necessario attivare la modalità sviluppatore di Decky per far apparire l'opzione.
+
 - **SimpleDeckyTDP:** [Link Repository](https://github.com/aarron-lee/SimpleDeckyTDP) <br>
 Plug-in per Decky loader necessario per impostare il TDP e altre funzioni utili su Ally e Legion GO. <br>
 **💿 Installazione:** <br>
   Inserire questo comando da terminale
   ```
   curl -L https://github.com/aarron-lee/SimpleDeckyTDP/raw/main/install.sh | sh
-- **InputPlumber** [NECESSARIO SOLO SU LEGION GO]: [Link Repository](https://github.com/ShadowBlip/InputPlumber) <br>
-Permette il corretto funzionamento del controller Legion, e l'utilizzo contemporaneo di più controller. <br>
-**💿 Installazione:** <br>
-  Inserire questo comando da terminale
-  ```
-  sudo pacman -S inputplumber 
-  ```
-  In seguito inserire questo comando per avviare i servizi inerenti:
-  ```
-  sudo systemctl enable inputplumber
-  sudo systemctl enable inputplumber-suspend
-  sudo systemctl start inputplumber
-  ```
-
-## Plugin Consigliati
-
-### 1. Plugin non presenti nello store di Decky
-**PREMESSA:** Se non specificato diversamente, i file zip dei plugin vanno installati manualmente dalle opzioni(⚙️) di Decky Loader(🔌). È necessario attivare la modalità sviluppatore di Decky per far apparire l'opzione.
-
+  
 - **Decky Lossless Scaling:** [Link Download Zip](https://github.com/xXJSONDeruloXx/decky-lossless-scaling-vk/releases) <br>
 Plugin che permette di utilizzare Lossless Scaling su linux in pochi click, per avere la frame generation in tutti i giochi. È necessario acquistare Lossless Scaling su steam per il funzionamento.
 

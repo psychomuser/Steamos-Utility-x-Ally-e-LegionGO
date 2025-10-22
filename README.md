@@ -35,6 +35,12 @@ Se sull'SSD è presente un'installazione di steamos o windows non ci sono proble
 Una volta avviato steam, andare in desktop mode e aprire il menu "start", cliccare sull'icona accanto al nome utente e si aprirà un menu: a quel punto cliccare su "cambia password" e impostare la password, ma rifiutate di impostare la password per il wallet.
 Questa password verrà richiesta durante l'esecuzione di programmi che modificano il sistema, installazione di plugin, o l'uso di comandi da terminale.
 
+***OPZIONALE: Rimuovere richiesta password da terminale con questo comando:*** <br>
+```
+echo "%wheel ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/wheel >/dev/null
+```
+
+
 ### 2. Installazione Decky Loader
 
 - **Decky loader:** [Link Download](https://decky.xyz/) <br>
@@ -48,7 +54,8 @@ Tool che permette di installare vari plugin utilissimi, di cui alcuni necessari.
 **PREMESSA:** Se non specificato diversamente, i file zip dei plugin vanno installati manualmente dalle opzioni(⚙️) di Decky Loader(🔌). È necessario attivare la modalità sviluppatore di Decky per far apparire l'opzione.
 
 - **SimpleDeckyTDP:** [Link Repository](https://github.com/aarron-lee/SimpleDeckyTDP) <br>
-Plug-in per Decky loader necessario per impostare il TDP e altre funzioni utili su Ally e Legion GO. <br>
+Plug-in per Decky loader utile per impostare il TDP su Ally e Legion GO. <br>
+<ins>**(Non più necessario, la gestione TDP ufficiale di steamos è ottima)**</ins> <br>
 **💿 Installazione:** <br>
   Inserire questo comando da terminale
   ```

@@ -116,8 +116,8 @@ Scaricare il file zip del plugin e installarlo manualmente dalle opzioni(⚙️)
   ```
   wget -O /tmp/bootstrap.sh https://github.com/SavageCore/xone-steam-deck-installer/releases/latest/download/bootstrap.sh && sh /tmp/bootstrap.sh
   ```
-  Al termine verranno aggiunte 4 icone sul desktop; se va tutto a buon fine apparirà un popup che conferma l'installazione invita a inserire il dongle XBOX. Secondo i miei test, invece, ci sarà un errore e l'installazione non andrà a buon fine (ho scoperto che succede perché steamos è un sistema immutabile). <br>
-  In questo caso, basta inserire questo comando:
+  Al termine verranno aggiunte 4 icone sul desktop; se va tutto a buon fine apparirà un popup che conferma l'installazione invita a inserire il dongle XBOX. Se il kernel è inferiore alla versione 611, invece, ci sarà un errore e l'installazione non andrà a buon fine. <br>
+  In questo caso, basta inserire questo comando per aggiornare il kernel:
   ```
   sudo pacman -S linux-neptune-611
   ```

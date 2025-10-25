@@ -12,7 +12,7 @@ Guide, consigli e strumenti utili per STEAMOS UFFICIALE
 - [Tool e Utility](#tool-e-utility)
   - [1. Tool non presenti in Discover](#1-tool-non-presenti-in-discover)
   - [2. Tool presenti in Discover](#2-tool-presenti-in-discover) 
-
+- [Comandi da Conoscere](#Comandi-da-Conoscere)
 ---
 
 ## Download e Installazione SteamOS
@@ -151,7 +151,21 @@ Scaricare il file zip del plugin e installarlo manualmente dalle opzioni(⚙️)
 - **PortProton:** Alternativa a Lutris con dei vantaggi/svantaggi
 
 - **Heroic Launcher:** Vari store gaming in un'unica app. Alternativa al plugin NonSteamLauncher.
-  
+
+## Comandi da Conoscere
+
+- Comando per rimuovere la richiesta password su terminale:
+  ```
+  echo "%wheel ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/wheel >/dev/null
+  ```
+- Comando per rendere la partizione system scrivibile:
+  ```
+  sudo steamos-readonly disable
+  ```
+- Comando per rimettere la partizione system in modalità solo lettura:
+  ```
+  sudo steamos-readonly enable
+  ```
   
 
 

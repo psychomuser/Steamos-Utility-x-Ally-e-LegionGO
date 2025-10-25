@@ -71,6 +71,23 @@ Scaricare il file zip del plugin e installarlo manualmente dalle opzioni(⚙️)
   **💿Installazione:** <br>
   Scaricare NSLPLUGIN.desktop e avviarlo dal gestore file per avviare l'installazione o l'aggiornamento del plugin.
 
+**[SOLO PER LEGION GO]**
+- **Legion GO Remapper:** [Link Repository](https://github.com/aarron-lee/LegionGoRemapper) <br>
+  Plugin che permette di controllare i led della legion, rimappare i tasti, e - previa installazione di altre dipendenze - attivare il limite di carica all'80%, impostare una curva delle ventole, e attivare la luminosità automatica. <br>
+  **💿Installazione:** <br>
+   Inserire questo comando da terminale
+  ```
+  curl -L https://github.com/aarron-lee/LegionGoRemapper/raw/main/install.sh | sh
+  ```
+  In questo modo verrà installato il plugin, ma per attivare le funzionalità avanzate, bisogna installare queste dipendenze attraverso questo blocco di comandi:
+  ```
+  sudo pacman -Sy 
+  sudo pacman -S plymouth 
+  sudo pacman -S dkms git base-devel plymouth 
+  sudo pacman -S acpi_call-dkms 
+  dkms status
+  ```
+
 ### 2. Plugin presenti nello store di Decky
 
 - **Decky Framegen:** Plugin che tramite optiscaler permette di convertire gli input DLSS in XESS 2.1, inclusa frame generation se disponibile. <br>

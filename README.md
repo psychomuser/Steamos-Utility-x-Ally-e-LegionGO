@@ -185,7 +185,7 @@ Esistono metodi per aggiornare il kernel manualmente, e senza aggiornare il sist
           #!/bin/bash
           sudo systemctl restart display-manager
           ```
-     - A questo punto salvare le modifiche
+     - A questo punto salvare le modifiche e chiudere il file.
      - Tasto destro sul file > proprietà > rendi il file eseguibile, e da questo momento lo script funzionerà e riavvierà il display manager correttamente.
  - Tasto destro sul file > Aggiungi shortcut a Steam, in modo tale da poterlo avviare da steam.
  - Lo script però richiede una password per essere eseguito, cosa non possibile da gamescope. Quindi - se non è già stato fatto - rimuovere la richiesta di password dal terminale con questo comando:

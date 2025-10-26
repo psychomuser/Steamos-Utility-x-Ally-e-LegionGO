@@ -176,8 +176,8 @@ La EGPU è ufficialmente supportata a partire dal kernel neptune 615. Controllar
   - Attualmente (26/10/2025) usando questo metodo il display interno della handheld resta acceso con la schermata d'avvio impressa. Una volta in gamescope, basta toccare il display interno e si riavvia steam risolvendo il problema. Si può anche creare uno script avviabile da gamescope per riavviare il display manager e risolvere (Approfondisco nel Metodo 2.
 
 ### Metodo 2: EGPU inserita ad handheld accesa
-  - Se si inserisce la EGPU in desktop mode, la EGPU funziona correttamente, poi basta passare in gamescope per utilizzarla tranquillamente
-  - Se si inserisce in gamescope, il monitor principale resta sempre quello interno della handheld, ma si può creare uno script per riavviare il display manager per risolvere, seguendo questi passaggi:
+  - Se si inserisce la EGPU in desktop mode, la EGPU funziona correttamente, poi basta passare in gamescope per utilizzarla tranquillamente.
+  - Se si inserisce in gamescope, il monitor principale resta quello interno della handheld. Per risolvere, basta forzare il riavvio del display manager con uno script. Per crearlo seguire questi passaggi:
      - Tasto destro sul desktop > crea > crea nuovo file e nominarlo ad esempio EGPU.sh
      - Aprire il file con kate, e inserire la stringa:
          ```
@@ -186,7 +186,11 @@ La EGPU è ufficialmente supportata a partire dal kernel neptune 615. Controllar
           ```
      - A questo punto salvare le modifiche
      - Tasto destro sul file > proprietà > rendi il file eseguibile, e da questo momento lo script funzionerà e riavvierà il display manager correttamente.
-     - Tasto destro sul file > Aggiungi shortcut a Steam, in modo tale da poterlo avviare da steam.
+ - Tasto destro sul file > Aggiungi shortcut a Steam, in modo tale da poterlo avviare da steam.
+ - Lo script però richiede una password per essere eseguito, cosa non possibile da gamescope. Quindi - se non è già stato fatto - rimuovere la richiesta di password dal terminale con questo comando:
+     ```
+     echo "%wheel ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/wheel >/dev/null
+     ```
  - Adesso basta inserire l'EGPU mentre si è in gamescope, poi avviare lo script e il gioco è fatto!
 
 

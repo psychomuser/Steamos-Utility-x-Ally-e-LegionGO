@@ -168,7 +168,7 @@ Scaricare il file zip del plugin e installarlo manualmente dalle opzioni(⚙️)
   sudo steamos-readonly enable
   ```
 
-  ## EGPU
+## EGPU
 La EGPU è ufficialmente supportata a partire dal kernel neptune 615. Controllare la versione del kernel nelle info di sistema. Attualmente (26/10/25) bisogna passare al canale di aggiornamento "Principale" per avere il kernel aggiornato a questa versione. Per farlo bisogna attivare le opzioni sviluppatore, e da lì attivare i canali di aggiornamento avanzati, per poi passare al canale di aggiornamento "principale" per gli aggiornamenti di sistema.
 
 ### Metodo 1: EGPU all'avvio

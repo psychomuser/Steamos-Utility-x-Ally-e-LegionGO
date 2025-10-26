@@ -117,13 +117,15 @@ Scaricare il file zip del plugin e installarlo manualmente dalle opzioni(⚙️)
 
 - **Audio Loader:** Permette di personalizzare i suoni dell'interfaccia Gamescope.
 
-- **VibrantDeck:** Permette di regolare i colori e la vivacità del display
+- **VibrantDeck:** Permette di regolare i colori e la vivacità del display.
 
 - **Steamback:** Mantiene in backup gli ultimi 10 salvataggi steam cloud dopo la chiusura di un gioco, info sul [Github](https://github.com/geeksville/steamback)
 
-- **Game Sync:** Permette di caricare automaticamente in cloud i salvataggi di un determinato gioco (fork di "decky cloud save" con più funzioni)
+- **Game Sync:** Permette di caricare automaticamente in cloud i salvataggi di un determinato gioco (fork di "decky cloud save" con più funzioni).
 
-- **Quick Launch:** Permette di creare shortcut e/o avviare facilmente app desktop in gaming mode (es. browser web)
+- **Quick Launch:** Permette di creare shortcut e/o avviare facilmente app desktop in gaming mode (es. browser web).
+
+- **XR Gaming:** Sblocca funzioni avanzate di movimento per occhiali XR/AR come gli xreal air 2.
 
 ## Tool e utility
 

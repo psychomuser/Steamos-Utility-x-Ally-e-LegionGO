@@ -13,6 +13,7 @@ Guide, consigli e strumenti utili per STEAMOS UFFICIALE
   - [1. Tool non presenti in Discover](#1-tool-non-presenti-in-discover)
   - [2. Tool presenti in Discover](#2-tool-presenti-in-discover) 
 - [Comandi da Conoscere](#Comandi-da-Conoscere)
+- [EGPU](#egpu)
 ---
 
 ## Download e Installazione SteamOS
@@ -166,6 +167,8 @@ Scaricare il file zip del plugin e installarlo manualmente dalle opzioni(⚙️)
   ```
   sudo steamos-readonly enable
   ```
+
+  ## EGPU
   
 
 

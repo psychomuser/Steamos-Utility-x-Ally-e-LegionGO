@@ -169,11 +169,12 @@ Scaricare il file zip del plugin e installarlo manualmente dalle opzioni(⚙️)
   ```
 
 ## EGPU
-La EGPU è ufficialmente supportata a partire dal kernel neptune 615. Controllare la versione del kernel nelle info di sistema. Attualmente (26/10/25) bisogna passare al canale di aggiornamento "Principale" per avere il kernel aggiornato a questa versione. Per farlo bisogna attivare le opzioni sviluppatore, e da lì attivare i canali di aggiornamento avanzati, per poi passare al canale di aggiornamento "principale" per gli aggiornamenti di sistema.
+La EGPU è ufficialmente supportata a partire dal kernel neptune 615. Controllare la versione del kernel nelle info di sistema. Attualmente (26/10/25) bisogna passare al canale di aggiornamento "Principale" per avere il kernel aggiornato a questa versione. Per farlo bisogna attivare le opzioni sviluppatore, e da lì attivare i canali di aggiornamento avanzati, per poi passare al canale di aggiornamento "principale" per gli aggiornamenti di sistema. <br>
+Esistono metodi per aggiornare il kernel manualmente, e senza aggiornare il sistema, ma non ho mai testato il funzionamento di EGPU con questo metodo.
 
 ### Metodo 1: EGPU all'avvio
   - Basta accendere la Handheld con EGPU inserita, e la EGPU funziona automaticamente.
-  - Attualmente (26/10/2025) usando questo metodo il display interno della handheld resta acceso con la schermata d'avvio impressa. Una volta in gamescope, basta toccare il display interno e si riavvia steam risolvendo il problema. Si può anche creare uno script avviabile da gamescope per riavviare il display manager e risolvere (Approfondisco nel Metodo 2.
+  - Attualmente (26/10/2025) usando questo metodo il display interno della handheld resta acceso con la schermata d'avvio impressa. Una volta in gamescope, basta toccare il display interno e si riavvia steam risolvendo il problema. Si può anche creare uno script avviabile da gamescope per riavviare il display manager e risolvere (Approfondisco nel Metodo 2).
 
 ### Metodo 2: EGPU inserita ad handheld accesa
   - Se si inserisce la EGPU in desktop mode, la EGPU funziona correttamente, poi basta passare in gamescope per utilizzarla tranquillamente.

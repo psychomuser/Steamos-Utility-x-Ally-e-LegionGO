@@ -192,7 +192,9 @@ Esistono metodi per aggiornare il kernel manualmente, e senza aggiornare il sist
      ```
      echo "%wheel ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/wheel >/dev/null
      ```
- - Adesso basta inserire l'EGPU mentre si è in gamescope, poi avviare lo script e il gioco è fatto!
+ - Adesso basta inserire l'EGPU mentre si è in gamescope, poi avviare lo script e il gioco è fatto! <br>
+
+**NOTA BENE:** Non è possibile rimuovere l'EGPU mentre si è in gamescope, altrimenti si resta bloccati con schermo nero e si deve riavviare forzatamente. Per rimuovere EGPU bisogna andare in desktope mode o spegnere la handheld.
 
 
 

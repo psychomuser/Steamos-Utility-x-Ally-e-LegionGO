@@ -61,11 +61,6 @@ Plug-in per Decky loader utile per impostare il TDP su Ally e Legion GO. <br>
   Inserire questo comando da terminale
   ```
   curl -L https://github.com/aarron-lee/SimpleDeckyTDP/raw/main/install.sh | sh
-  
-- **Decky Lossless Scaling:** [Link Download Zip](https://github.com/xXJSONDeruloXx/decky-lossless-scaling-vk/releases) <br>
-Plugin che permette di utilizzare Lossless Scaling su linux in pochi click, per avere la frame generation in tutti i giochi. È necessario acquistare Lossless Scaling su steam per il funzionamento. <br>
-**💿 Installazione:** <br>
-Scaricare il file zip del plugin e installarlo manualmente dalle opzioni(⚙️) di Decky Loader(🔌). È necessario attivare la modalità sviluppatore di Decky per far apparire l'opzione.
 
 - **NonSteamLauncher:** [Link Installer](https://github.com/moraroy/NonSteamLaunchers-On-Steam-Deck/releases) <br>
   Plugin che permette facilmente l'installazione di altri launcher (es. Epic, Gog, Ubisoft, EA). Inoltre permette l'installazione di servizi streaming come webapp chrome, utilizzabili con controller (es. Gamepass, Geforce, Luna, Youtube). <br>
@@ -92,6 +87,8 @@ Scaricare il file zip del plugin e installarlo manualmente dalle opzioni(⚙️)
 ### 2. Plugin presenti nello store di Decky
 
 - **Decky Framegen:** Plugin che tramite optiscaler permette di convertire gli input DLSS in XESS 2.1, inclusa frame generation se disponibile. <br>
+
+- **Decky Lossless Scaling:** Plugin che permette di utilizzare Lossless Scaling su linux in pochi click, per avere la frame generation in tutti i giochi. È necessario acquistare Lossless Scaling su steam per il funzionamento. <br>
 
 - **SteamGriDB:** Permette di modificare facilmente artwork e banner di ogni gioco/app steam.
   

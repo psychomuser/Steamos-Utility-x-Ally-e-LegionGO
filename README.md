@@ -54,18 +54,18 @@ Tool che permette di installare vari plugin utilissimi, di cui alcuni necessari.
 ### 1. Plugin non presenti nello store di Decky
 **PREMESSA:** Se non specificato diversamente, i file zip dei plugin vanno installati manualmente dalle opzioni(⚙️) di Decky Loader(🔌). È necessario attivare la modalità sviluppatore di Decky per far apparire l'opzione.
 
-- **SimpleDeckyTDP:** [Link Repository](https://github.com/aarron-lee/SimpleDeckyTDP) <br>
-Plug-in per Decky loader utile per impostare il TDP su Ally e Legion GO. <br>
-<ins>**(Non più necessario, la gestione TDP ufficiale di steamos è ottima)**</ins> <br>
-**💿 Installazione:** <br>
-  Inserire questo comando da terminale
-  ```
-  curl -L https://github.com/aarron-lee/SimpleDeckyTDP/raw/main/install.sh | sh
-
 - **NonSteamLauncher:** [Link Installer](https://github.com/moraroy/NonSteamLaunchers-On-Steam-Deck/releases) <br>
   Plugin che permette facilmente l'installazione di altri launcher (es. Epic, Gog, Ubisoft, EA). Inoltre permette l'installazione di servizi streaming come webapp chrome, utilizzabili con controller (es. Gamepass, Geforce, Luna, Youtube). <br>
   **💿Installazione:** <br>
   Scaricare NSLPLUGIN.desktop e avviarlo dal gestore file per avviare l'installazione o l'aggiornamento del plugin.
+  
+- **SimpleDeckyTDP:** [Link Repository](https://github.com/aarron-lee/SimpleDeckyTDP) <br>
+Plug-in per Decky loader utile per impostare il TDP su Ally e Legion GO. <br>
+<ins>**(Non più necessario, la gestione TDP ufficiale di steamos è ottima; sconsigliato su Bazzite)**</ins> <br>
+**💿 Installazione:** <br>
+  Inserire questo comando da terminale
+  ```
+  curl -L https://github.com/aarron-lee/SimpleDeckyTDP/raw/main/install.sh | sh
 
 **[SOLO PER LEGION GO]**
 - **Legion GO Remapper:** [Link Repository](https://github.com/aarron-lee/LegionGoRemapper) <br>

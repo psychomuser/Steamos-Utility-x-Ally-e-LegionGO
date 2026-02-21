@@ -55,7 +55,7 @@ Tool che permette di installare vari plugin utilissimi, di cui alcuni necessari.
 **PREMESSA:** Se non specificato diversamente, i file zip dei plugin vanno installati manualmente dalle opzioni(⚙️) di Decky Loader(🔌). È necessario attivare la modalità sviluppatore di Decky per far apparire l'opzione.
 
 - **NonSteamLauncher:** [Link Installer](https://github.com/moraroy/NonSteamLaunchers-On-Steam-Deck/releases) <br>
-  Plugin che permette facilmente l'installazione di altri launcher (es. Epic, Gog, Ubisoft, EA). Inoltre permette l'installazione di servizi streaming come webapp chrome, utilizzabili con controller (es. Gamepass, Geforce, Luna, Youtube). <br>
+  Plugin che permette facilmente l'installazione di altri launcher (es. Epic, Gog, Ubisoft, EA). Inoltre permette l'installazione di servizi streaming come webapp utilizzabili con controller (es. Gamepass, Geforce, Luna, Youtube). <br>
   **💿Installazione:** <br>
   Scaricare NSLPLUGIN.desktop e avviarlo dal gestore file per avviare l'installazione o l'aggiornamento del plugin.
   

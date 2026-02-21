@@ -18,11 +18,11 @@ Guide, consigli e strumenti utili per STEAMOS UFFICIALE
 
 ## Download e Installazione SteamOS
 
-- Scaricare il file immagine da sito Valve a [questo link](https://store.steampowered.com/steamos/download/?ver=steamdeck&snr=100601___)
-- Creare un supporto USB avviabile (preferibilmente su un supporto USB veloce). Valve consiglia di usare Rufus su Windows, Balena Etcher su MacOS/Linux (non usare Ventoy)
-- Inserire la USB nella handheld e premere vol+ durante l'avvio per richiamare il boot menu, e avviare il supporto USB (Valido sia su ally che legion)
-- Dopo un po' si avvia il sistema Steamos da USB, aprire la voce sul desktop "WIPE DATA AND INSTALL STEAMOS" per avviare l'installazione (nota: se usate un supporto USB lento potrebbe volerci molto tempo sia per l'avvio del sistema che per l'installazione)
-- Dopo l'installazione la handheld si riavvierà (NOTA: la prima volta perde molto tempo ad avviarsi, attendere con pazienza)
+- Scaricare il file immagine da sito Valve a [questo link](https://store.steampowered.com/steamos/download/?ver=steamdeck&snr=100601___).
+- Creare un supporto USB avviabile (preferibilmente su un supporto USB veloce). Valve consiglia di usare Rufus su Windows, Balena Etcher su MacOS/Linux (non usare Ventoy).
+- Inserire la USB nella handheld e premere 'vol+' durante l'avvio per richiamare il boot menu, e avviare il supporto USB (Valido sia su ally che legion).
+- Dopo un po' si avvia il sistema Steamos da USB, aprire la voce sul desktop "WIPE DATA AND INSTALL STEAMOS" per avviare l'installazione (nota: se usate un supporto USB lento potrebbe volerci molto tempo sia per l'avvio del sistema che per l'installazione).
+- Dopo l'installazione la handheld si riavvierà (NOTA: la prima volta perde molto tempo ad avviarsi, attendere con pazienza).
 - A quel punto si avvierà la configurazione guidata di Steam, seguire i passaggi per completare l'installazione.
 
 #### NOTA IMPORTANTE: 

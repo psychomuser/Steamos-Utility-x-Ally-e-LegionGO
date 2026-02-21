@@ -33,8 +33,8 @@ Se sull'SSD è presente un'installazione di steamos o windows non ci sono proble
 
 ### 1. Impostare una password di root per linux
 
-Una volta avviato steam, andare in desktop mode e aprire il menu "start", cliccare sull'icona accanto al nome utente e si aprirà un menu: a quel punto cliccare su "cambia password" e impostare la password. Questa password verrà richiesta durante l'esecuzione di programmi che modificano il sistema, installazione di plugin, o l'uso di comandi da terminale. Poco sotto spiego come rimuovere la richiesta di questa password. <br>
-A questo punto verrà chiesto di creare una password per il wallet, consiglio di accettare ma di lasciare i campi vuoti, per evitare un'ulteriore password richieta in varie operazioni.
+Una volta avviato steam, andare in desktop mode e aprire il menu "start", cliccare sull'icona accanto al nome utente e si aprirà un menu: a quel punto cliccare su "cambia password" e impostare la password. Questa password verrà richiesta durante l'esecuzione di programmi che modificano il sistema, o l'uso di comandi da terminale. Poco sotto spiego come rimuovere la richiesta di questa password. <br>
+A questo punto verrà chiesto di creare una password per il wallet, consiglio di accettare ma di lasciare i campi vuoti, per evitare un'ulteriore password richiesta in varie operazioni.
 
 
 ***OPZIONALE: Rimuovere richiesta password root da terminale con questo comando:*** <br>
